@@ -1,5 +1,4 @@
 <template>
-  <h1>homePage</h1> 
   <div class="main">
     <div class="service">
         <p class="service-item"><svg class="service-item-icon" xmlns="http://www.w3.org/2000/svg" height="16" width="20" viewBox="0 0 640 512"><path d="M48 0C21.5 0 0 21.5 0 48V368c0 26.5 21.5 48 48 48H64c0 53 43 96 96 96s96-43 96-96H384c0 53 43 96 96 96s96-43 96-96h32c17.7 0 32-14.3 32-32s-14.3-32-32-32V288 256 237.3c0-17-6.7-33.3-18.7-45.3L512 114.7c-12-12-28.3-18.7-45.3-18.7H416V48c0-26.5-21.5-48-48-48H48zM416 160h50.7L544 237.3V256H416V160zM112 416a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm368-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg><span class="service-item-span">تحویل سریع</span> </p>
@@ -115,6 +114,98 @@
     <img class="img-banner-div-" src="../assets/ps4game.png" alt="">
     <img class="img-banner-div-" src="../assets/xbox-game.png" alt="">
   </div>
+  <div class="newest-products-holder">
+    <div class="game-consol-border-bottom">
+      <div class="game-consol">
+        <p class="product-title"><svg xmlns="http://www.w3.org/2000/svg" height="16" width="14" viewBox="0 0 448 512"><path d="M159.3 5.4c7.8-7.3 19.9-7.2 27.7 .1c27.6 25.9 53.5 53.8 77.7 84c11-14.4 23.5-30.1 37-42.9c7.9-7.4 20.1-7.4 28 .1c34.6 33 63.9 76.6 84.5 118c20.3 40.8 33.8 82.5 33.8 111.9C448 404.2 348.2 512 224 512C98.4 512 0 404.1 0 276.5c0-38.4 17.8-85.3 45.4-131.7C73.3 97.7 112.7 48.6 159.3 5.4zM225.7 416c25.3 0 47.7-7 68.8-21c42.1-29.4 53.4-88.2 28.1-134.4c-4.5-9-16-9.6-22.5-2l-25.2 29.3c-6.6 7.6-18.5 7.4-24.7-.5c-16.5-21-46-58.5-62.8-79.8c-6.3-8-18.3-8.1-24.7-.1c-33.8 42.5-50.8 69.3-50.8 99.4C112 375.4 162.6 416 225.7 416z"></path></svg> کنسول بازی</p>
+      </div>
+      <div class="newest-products-txt">
+        <span> 
+          مشاهده همه
+        </span>
+      </div>
+    </div>
+    </div>
+    <div class="div-products-holder">
+      <div class="products">
+        <div class="products-picture-div">
+          <img src="../assets/consoldasti-abernic.jpg" alt="abernic-picture" class="products-picture">
+        </div>
+        <div class="products-text-holder">
+          <div class="products-text">
+            خرید کنسول دستی Abernic RG35XX
+          </div>
+        </div>
+        <div class="products-prise">
+          <p>تومان 3,400,000</p>
+        </div>
+      </div>
+      <div class="products">
+        <div class="products-picture-div">
+          <img src="../assets/consoldasti-D-007.jpg" alt="D-007-picture" class="products-picture">
+        </div>
+        <div class="products-text-holder">
+          <div class="products-text">
+            خرید کنسول دستی D-007 Plus
+          </div>
+        </div>
+        <div class="products-prise">
+          <p>تومان 3,550,000</p>
+        </div>
+      </div>
+      <div class="products">
+        <div class="products-picture-div">
+          <img src="../assets/ps4-ft.jpg" alt="ps4-ft-picture" class="products-picture-3">
+        </div>
+        <div class="products-text-holder">
+          <div class="products-text">
+            خرید پلی استیشن 4 فت 1 ترابایت ریجن 2
+          </div>
+        </div>
+        <div class="products-prise">
+          <p>تومان 10.499,000</p>
+        </div>
+      </div>
+      <div class="products">
+        <div class="products-picture-div">
+          <img src="../assets/ps5 standard.jpg" alt="ps5-standard-picture" class="products-picture-4">
+        </div>
+        <div class="products-text-holder">
+          <div class="products-text">
+            خرید پلی استیشن 5 استاندارد دیسک خو باندل
+          </div>
+        </div>
+        <div class="products-prise">
+          <p>تومان 27,900,000</p>
+        </div>
+      </div>
+      <div class="products">
+        <div class="products-picture-div">
+          <img src="../assets/xbox-s.jpg" alt="xbobx-s-picture" class="products-picture">
+        </div>
+        <div class="products-text-holder">
+          <div class="products-text">
+            خرید xbox series s مشکی 1 ترابایت
+          </div>
+        </div>
+        <div class="products-prise">
+          <p>تومان 18,900,000</p>
+        </div>
+      </div>
+      <div class="products">
+        <div class="products-picture-div">
+          <img src="../assets/ps4-slim.jpg" alt="call of duty vanguard-picture" class="consol-picture-6">
+        </div>
+        <div class="products-text-holder">
+          <div class="products-text">
+            خرید پلی استیشن 4 اسلیم ریجن 2 یک ترابایت استفاده شده
+          </div>
+        </div>
+        <div class="products-prise">
+          <p>تومان ,12,999,000</p>
+        </div>
+      </div>
+    </div>
   <div class="banner-down-before-footer-page">
      <img class="banner-down-before-footer-page" src="../assets/banner-down-before-footer.jpg" alt="">
   </div>
@@ -285,5 +376,23 @@
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  .game-consol {
+    width: 140px;
+    height:50px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+  }
+  .game-consol-border-bottom {
+    width: 250px;
+    height: 40px;
+    border-bottom: 3px solid rgb(0, 110, 255);
+    display: flex;
+    align-items: center;
+  }
+  .consol-picture-6 {
+    width: 160px;
+    border-radius: 12px;
   }
 </style>
