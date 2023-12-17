@@ -230,7 +230,7 @@
     }
     .div-products-holder {
       height: 400px;
-      background-color: ;
+      /* background-color: ; */
       display: flex;
       align-items: center;
       justify-content: space-around;
