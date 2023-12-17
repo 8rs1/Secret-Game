@@ -126,9 +126,11 @@ ul {
 .submenu {
   position: absolute;
   top: 10%;
+  right: 0;
+  text-align: right;
   box-shadow: 1px 1px 10px #aaa;
   border-radius: 12px;
-  width: 100%;
+  width: 15rem;
   visibility: hidden;
   opacity: 0;
   transition: all 100ms ease-out;
@@ -136,10 +138,10 @@ ul {
 }
 .submenu-item {
   background-color: #fff;
-  padding: .3rem;
+  padding: .5rem 1rem;
 }
 .nav-item:hover>.submenu {
-  top: 100%;
+  top: 102%;
   visibility: visible;
   opacity: 1;
   animation: drop-down_animation 200ms ease 1 alternate;
