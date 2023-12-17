@@ -1,4 +1,7 @@
 /* color palette from <https://github.com/vuejs/theme> */
+* {
+  box-sizing: border-box;
+}
 body {
   margin: 0;
   direction: rtl;
