@@ -1,5 +1,4 @@
 <template>
-<<<<<<< HEAD
   <h1>homePage</h1> 
   <div class="main">
     <div class="service">
@@ -42,7 +41,74 @@
           <p>تومان 380,000</p>
         </div>
       </div>
+      <div class="products">
+        <div class="products-picture-div">
+          <img src="../assets/fallout.jpg" alt="fallout-picture" class="products-picture">
+        </div>
+        <div class="products-text-holder">
+          <div class="products-text">
+            خرید بازی fallout 4 استفاده شده برای ps4
+          </div>
+        </div>
+        <div class="products-prise">
+          <p>تومان 370,000</p>
+        </div>
+      </div>
+      <div class="products">
+        <div class="products-picture-div">
+          <img src="../assets/consolps5.jpg" alt="consolps5-picture" class="products-picture-3">
+        </div>
+        <div class="products-text-holder">
+          <div class="products-text">
+            خرید کنسول Game 2.4G 4K Classc با دو عدد گیم
+          </div>
+        </div>
+        <div class="products-prise">
+          <p>تومان 24.999,000</p>
+        </div>
+      </div>
+      <div class="products">
+        <div class="products-picture-div">
+          <img src="../assets/controler.jpg" alt="conteroler-picture" class="products-picture-4">
+        </div>
+        <div class="products-text-holder">
+          <div class="products-text">
+            خرید کنترلر dualsense کار کرده
+          </div>
+        </div>
+        <div class="products-prise">
+          <p>تومان 2,350,000</p>
+        </div>
+      </div>
+      <div class="products">
+        <div class="products-picture-div">
+          <img src="../assets/cyberpunk.jpg" alt="cyberpunk-picture" class="products-picture">
+        </div>
+        <div class="products-text-holder">
+          <div class="products-text">
+            خرید بازی cyberpunk 2077 نسخه ultimate برای PS5
+          </div>
+        </div>
+        <div class="products-prise">
+          <p>تومان 2,800,000</p>
+        </div>
+      </div>
+      <div class="products">
+        <div class="products-picture-div">
+          <img src="../assets/call of duty vanguard.jpg" alt="call of duty vanguard-picture" class="products-picture">
+        </div>
+        <div class="products-text-holder">
+          <div class="products-text">
+            خرید بازی : call of duty vanguard استفاده شده
+
+          </div>
+        </div>
+        <div class="products-prise">
+          <p>تومان ,950,000</p>
+        </div>
+      </div>
     </div>
+    
   <div class="img-banner-div">
     <img class="img-banner-div-" src="../assets/nintendo-game.png" alt="">
     <img class="img-banner-div-" src="../assets/ps5.png" alt="">
@@ -57,17 +123,6 @@
 *{
   direction: rtl;
 }
-=======
-  <div class="main">
-    <div class="service">
-        <p class="service-item"><svg class="service-item-icon" xmlns="http://www.w3.org/2000/svg" height="16" width="20" viewBox="0 0 640 512"><path d="M192 64C86 64 0 150 0 256S86 448 192 448H448c106 0 192-86 192-192s-86-192-192-192H192zM496 168a40 40 0 1 1 0 80 40 40 0 1 1 0-80zM392 304a40 40 0 1 1 80 0 40 40 0 1 1 -80 0zM168 200c0-13.3 10.7-24 24-24s24 10.7 24 24v32h32c13.3 0 24 10.7 24 24s-10.7 24-24 24H216v32c0 13.3-10.7 24-24 24s-24-10.7-24-24V280H136c-13.3 0-24-10.7-24-24s10.7-24 24-24h32V200z"></path></svg><span class="service-item-span">دنیای گیم</span></p>
-        <p class="service-item"><svg class="service-item-icon" xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512"><path d="M256 80C149.9 80 62.4 159.4 49.6 262c9.4-3.8 19.6-6 30.4-6c26.5 0 48 21.5 48 48V432c0 26.5-21.5 48-48 48c-44.2 0-80-35.8-80-80V384 336 288C0 146.6 114.6 32 256 32s256 114.6 256 256v48 48 16c0 44.2-35.8 80-80 80c-26.5 0-48-21.5-48-48V304c0-26.5 21.5-48 48-48c10.8 0 21 2.1 30.4 6C449.6 159.4 362.1 80 256 80z"></path></svg><span class="service-item-span">پشتیبانی عالی</span></p>
-        <p class="service-item"><svg class="service-item-icon" xmlns="http://www.w3.org/2000/svg" height="16" width="20" viewBox="0 0 640 512"><path d="M48 0C21.5 0 0 21.5 0 48V368c0 26.5 21.5 48 48 48H64c0 53 43 96 96 96s96-43 96-96H384c0 53 43 96 96 96s96-43 96-96h32c17.7 0 32-14.3 32-32s-14.3-32-32-32V288 256 237.3c0-17-6.7-33.3-18.7-45.3L512 114.7c-12-12-28.3-18.7-45.3-18.7H416V48c0-26.5-21.5-48-48-48H48zM416 160h50.7L544 237.3V256H416V160zM112 416a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm368-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg><span class="service-item-span">بازگشت وجه</span></p>
-        <p class="service-item"><svg class="service-item-icon" xmlns="http://www.w3.org/2000/svg" height="16" width="20" viewBox="0 0 640 512"><path d="M48 0C21.5 0 0 21.5 0 48V368c0 26.5 21.5 48 48 48H64c0 53 43 96 96 96s96-43 96-96H384c0 53 43 96 96 96s96-43 96-96h32c17.7 0 32-14.3 32-32s-14.3-32-32-32V288 256 237.3c0-17-6.7-33.3-18.7-45.3L512 114.7c-12-12-28.3-18.7-45.3-18.7H416V48c0-26.5-21.5-48-48-48H48zM416 160h50.7L544 237.3V256H416V160zM112 416a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm368-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg><span class="service-item-span">تحویل سریع</span> </p>
-      </div>
-  </div>
-</template>
-<style scoped>
 .main{
         /* background-color: black; */
         width: 100%;
@@ -175,23 +230,34 @@
     }
     .div-products-holder {
       height: 400px;
-      background-color: pink;
+      background-color: ;
       display: flex;
       align-items: center;
+      justify-content: space-around;
     }
   .products {
     width: 190px;
     height: 340px;
     background-color: white;
     border-radius: 12px;
+    box-shadow: 2px 2px 10px 1px;
   }
   .products-picture-div {
     width: 100%;
     height: 210px;
-    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .products-picture {
     width: 190px;
+    border-radius: 12px;
+  }
+  .products-picture-3 {
+    width: 150px;
+  }
+  .products-picture-4 {
+    width: 140px;
   }
   .products-text-holder {
     width: 100%;
@@ -207,9 +273,9 @@
     align-items: center;
     align-items: flex-start;
     line-height: 1.7;
-    font-family: iransans;
     color: #212529;
     margin-right: 20px;
+    margin-left: 10px;
   }
   .products-prise {
     width: 100%;
