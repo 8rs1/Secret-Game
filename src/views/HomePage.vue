@@ -22,6 +22,9 @@
     <img class="img-banner-div-" src="../assets/ps4game.png" alt="">
     <img class="img-banner-div-" src="../assets/xbox-game.png" alt="">
   </div>
+  <div class="banner-down-before-footer-page">
+     <img class="banner-down-before-footer-page" src="../assets/banner-down-before-footer.jpg" alt="">
+  </div>
 </template>
 <style scoped>
 .main{
@@ -89,5 +92,12 @@
       height: 225px;
       width: 320px;
     }
-    
+    .banner-down-before-footer-page{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: auto;
+      border-radius: 1rem;
+      height: 227px;
+    }
 </style>
