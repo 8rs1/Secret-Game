@@ -8,60 +8,60 @@
             اخبار و مقالات
             <i class="far fa-angle-down"></i>
             <ul class="submenu">
-              <li class="submenu-item">لورم1</li>
-              <li class="submenu-item">لورم2</li>
-              <li class="submenu-item">لورم3</li>
-              <li class="submenu-item">لورم4</li>
-              <li class="submenu-item">لورم5</li>
-              <li class="submenu-item">لورم6</li>
+              <li class="submenu-item"><RouterLink to="javascript:void(0)">لورم1</RouterLink></li>
+              <li class="submenu-item"><RouterLink to="javascript:void(0)">لورم2</RouterLink></li>
+              <li class="submenu-item"><RouterLink to="javascript:void(0)">لورم3</RouterLink></li>
+              <li class="submenu-item"><RouterLink to="javascript:void(0)">لورم4</RouterLink></li>
+              <li class="submenu-item"><RouterLink to="javascript:void(0)">لورم5</RouterLink></li>
+              <li class="submenu-item"><RouterLink to="javascript:void(0)">لورم6</RouterLink></li>
             </ul>
           </li>
           <li class="nav-item">
             ویدیو
             <i class="far fa-angle-down"></i>
             <ul class="submenu">
-              <li class="submenu-item">لورم1</li>
-              <li class="submenu-item">لورم2</li>
-              <li class="submenu-item">لورم3</li>
-              <li class="submenu-item">لورم4</li>
-              <li class="submenu-item">لورم5</li>
-              <li class="submenu-item">لورم6</li>
+              <li class="submenu-item"><RouterLink to="javascript:void(0)">لورم1</RouterLink></li>
+              <li class="submenu-item"><RouterLink to="javascript:void(0)">لورم2</RouterLink></li>
+              <li class="submenu-item"><RouterLink to="javascript:void(0)">لورم3</RouterLink></li>
+              <li class="submenu-item"><RouterLink to="javascript:void(0)">لورم4</RouterLink></li>
+              <li class="submenu-item"><RouterLink to="javascript:void(0)">لورم5</RouterLink></li>
+              <li class="submenu-item"><RouterLink to="javascript:void(0)">لورم6</RouterLink></li>
             </ul>
           </li>
           <li class="nav-item">
             بررسی بازی&zwnj;ها
             <i class="far fa-angle-down"></i>
             <ul class="submenu">
-              <li class="submenu-item">لورم1</li>
-              <li class="submenu-item">لورم2</li>
-              <li class="submenu-item">لورم3</li>
-              <li class="submenu-item">لورم4</li>
-              <li class="submenu-item">لورم5</li>
-              <li class="submenu-item">لورم6</li>
+              <li class="submenu-item"><RouterLink to="javascript:void(0)">لورم1</RouterLink></li>
+              <li class="submenu-item"><RouterLink to="javascript:void(0)">لورم2</RouterLink></li>
+              <li class="submenu-item"><RouterLink to="javascript:void(0)">لورم3</RouterLink></li>
+              <li class="submenu-item"><RouterLink to="javascript:void(0)">لورم4</RouterLink></li>
+              <li class="submenu-item"><RouterLink to="javascript:void(0)">لورم5</RouterLink></li>
+              <li class="submenu-item"><RouterLink to="javascript:void(0)">لورم6</RouterLink></li>
             </ul>
           </li>
           <li class="nav-item">
             آموزش
             <i class="far fa-angle-down"></i>
             <ul class="submenu">
-              <li class="submenu-item">لورم1</li>
-              <li class="submenu-item">لورم2</li>
-              <li class="submenu-item">لورم3</li>
-              <li class="submenu-item">لورم4</li>
-              <li class="submenu-item">لورم5</li>
-              <li class="submenu-item">لورم6</li>
+              <li class="submenu-item"><RouterLink to="javascript:void(0)">لورم1</RouterLink></li>
+              <li class="submenu-item"><RouterLink to="javascript:void(0)">لورم2</RouterLink></li>
+              <li class="submenu-item"><RouterLink to="javascript:void(0)">لورم3</RouterLink></li>
+              <li class="submenu-item"><RouterLink to="javascript:void(0)">لورم4</RouterLink></li>
+              <li class="submenu-item"><RouterLink to="javascript:void(0)">لورم5</RouterLink></li>
+              <li class="submenu-item"><RouterLink to="javascript:void(0)">لورم6</RouterLink></li>
             </ul>
           </li>
           <li class="nav-item">
             سکرت گیم
             <i class="far fa-angle-down"></i>
             <ul class="submenu">
-              <li class="submenu-item">لورم1</li>
-              <li class="submenu-item">لورم2</li>
-              <li class="submenu-item">لورم3</li>
-              <li class="submenu-item">لورم4</li>
-              <li class="submenu-item">لورم5</li>
-              <li class="submenu-item">لورم6</li>
+              <li class="submenu-item"><RouterLink to="javascript:void(0)">لورم1</RouterLink></li>
+              <li class="submenu-item"><RouterLink to="javascript:void(0)">لورم2</RouterLink></li>
+              <li class="submenu-item"><RouterLink to="javascript:void(0)">لورم3</RouterLink></li>
+              <li class="submenu-item"><RouterLink to="javascript:void(0)">لورم4</RouterLink></li>
+              <li class="submenu-item"><RouterLink to="javascript:void(0)">لورم5</RouterLink></li>
+              <li class="submenu-item"><RouterLink to="javascript:void(0)">لورم6</RouterLink></li>
             </ul>
           </li>
           <li class="nav-item">
@@ -70,10 +70,25 @@
         </ul>
       </nav>
     </div>
-    <div class="actions-container">login/signup search</div>
+    <div class="actions-container">
+      <div class="search" title="جستجو"><i class="far fa-search"></i></div>
+      <div class="login" title="ورود">
+        <RouterLink to="/login">ورود</RouterLink>
+      </div>
+      <div class="signup" title="ثبت نام">
+        <RouterLink to="/signup">ثبت نام</RouterLink>
+      </div>
+    </div>
   </header>
 </template>
 <style scoped>
+a {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
 ul {
   list-style-type: none;
   padding: 0;
@@ -82,9 +97,13 @@ ul {
 .header {
   display: flex;
   justify-content: space-between;
-  background-color: #eaeaea;
-  padding: 1rem 2rem;
+  align-items: center;
+  background-color: #fafafa;
+  box-shadow: 1px 0 10px #bbb;
+  padding: .5rem 2rem;
   font-family: iransans;
+  position: sticky;
+  top: 0;
 }
 .navbar {
   display: flex;
@@ -92,6 +111,7 @@ ul {
   gap: 1rem;
 }
 .nav-item {
+  height: 2.5rem;
   display: flex;
   gap: .2rem;
   align-items: center;
@@ -131,5 +151,27 @@ ul {
   100% {
     opacity: 1;
   }
+}
+.actions-container {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+.search {
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+.login, .signup {
+  width: 5rem;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  text-align: center;
+  background-color: #AB47BC;
+  color: #fafafa;
+  border-radius: .3rem;
+}
+.signup {
+  background-color: #E0E0E0;
+  color: initial;
 }
 </style>
