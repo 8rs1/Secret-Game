@@ -26,7 +26,6 @@
         </li>
         <li class="nav-item">
           تبلیغات
-          <i class="far fa-angle-down"></i>
         </li>
         </ul>
       </nav>
@@ -45,6 +44,7 @@ ul {
   justify-content: space-between;
   background-color: #eaeaea;
   padding: 1rem 2rem;
+  font-family: iransans;
 }
 .navbar {
   display: flex;
