@@ -26,6 +26,27 @@
         </span>
       </div>
     </div>
+    </div>
+    <div class="div-products-holder">
+      <div class="products">
+        <div class="products-picture-div">
+          <img src="../assets/farcry.jpg" alt="farcry-picture" class="products-picture">
+        </div>
+        <div class="products-text-holder">
+          <div class="products-text">
+            خرید بازی far cry primal استفاده شده برای ps4
+          </div>
+        </div>
+      </div>
+    </div>
+  <div class="img-banner-div">
+    <img class="img-banner-div-" src="../assets/nintendo-game.png" alt="">
+    <img class="img-banner-div-" src="../assets/ps5.png" alt="">
+    <img class="img-banner-div-" src="../assets/ps4game.png" alt="">
+    <img class="img-banner-div-" src="../assets/xbox-game.png" alt="">
+  </div>
+  <div class="banner-down-before-footer-page">
+     <img class="banner-down-before-footer-page" src="../assets/banner-down-before-footer.jpg" alt="">
   </div>
 </template>
 <style scoped>
@@ -116,4 +137,57 @@
       font-weight: bold;
     }
 
+    .img-banner-div{
+      width: 100;
+      height: 250px;
+      display: flex;
+      justify-content: space-around ;
+      align-items: center;
+    }
+    .img-banner-div-{
+      justify-content: space-between;
+      border-radius: 10px;
+      height: 225px;
+      width: 320px;
+    }
+    .banner-down-before-footer-page{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: auto;
+      border-radius: 1rem;
+      height: 227px;
+    }
+    .div-products-holder {
+      height: 350px;
+      background-color: pink;
+    }
+  .products {
+    width: 190px;
+    height: 350px;
+    background-color: white;
+    border-radius: 12px;
+  }
+  .products-picture-div {
+    width: 100%;
+    height: 210px;
+    background-color: aqua;
+  }
+  .products-picture {
+    width: 190px;
+  }
+  .products-text-holder {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .products-text {
+    width: 170px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    line-height: 1.7;
+  }
 </style>
