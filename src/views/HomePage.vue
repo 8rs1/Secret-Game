@@ -115,6 +115,100 @@
     <img class="img-banner-div-" src="../assets/ps4game.png" alt="">
     <img class="img-banner-div-" src="../assets/xbox-game.png" alt="">
   </div>
+  <div class="newest-products-holder">
+    <div class="newest-products-border-bottom">
+      <div class="newest-products">
+        <p class="product-title"><svg xmlns="http://www.w3.org/2000/svg" height="16" width="14" viewBox="0 0 448 512"><path d="M159.3 5.4c7.8-7.3 19.9-7.2 27.7 .1c27.6 25.9 53.5 53.8 77.7 84c11-14.4 23.5-30.1 37-42.9c7.9-7.4 20.1-7.4 28 .1c34.6 33 63.9 76.6 84.5 118c20.3 40.8 33.8 82.5 33.8 111.9C448 404.2 348.2 512 224 512C98.4 512 0 404.1 0 276.5c0-38.4 17.8-85.3 45.4-131.7C73.3 97.7 112.7 48.6 159.3 5.4zM225.7 416c25.3 0 47.7-7 68.8-21c42.1-29.4 53.4-88.2 28.1-134.4c-4.5-9-16-9.6-22.5-2l-25.2 29.3c-6.6 7.6-18.5 7.4-24.7-.5c-16.5-21-46-58.5-62.8-79.8c-6.3-8-18.3-8.1-24.7-.1c-33.8 42.5-50.8 69.3-50.8 99.4C112 375.4 162.6 416 225.7 416z"></path></svg> کنسول ها</p>
+      </div>
+      <div class="newest-products-txt">
+        <span> 
+          مشاهده همه
+        </span>
+      </div>
+    </div>
+    </div>
+    <div class="div-products-holder">
+      <div class="products">
+        <div class="products-picture-div">
+          <img src="../assets/farcry.jpg" alt="farcry-picture" class="products-picture">
+        </div>
+        <div class="products-text-holder">
+          <div class="products-text">
+            خرید بازی far cry primal استفاده شده برای ps4
+          </div>
+        </div>
+        <div class="products-prise">
+          <p>تومان 380,000</p>
+        </div>
+      </div>
+      <div class="products">
+        <div class="products-picture-div">
+          <img src="../assets/fallout.jpg" alt="fallout-picture" class="products-picture">
+        </div>
+        <div class="products-text-holder">
+          <div class="products-text">
+            خرید بازی fallout 4 استفاده شده برای ps4
+          </div>
+        </div>
+        <div class="products-prise">
+          <p>تومان 370,000</p>
+        </div>
+      </div>
+      <div class="products">
+        <div class="products-picture-div">
+          <img src="../assets/consolps5.jpg" alt="consolps5-picture" class="products-picture-3">
+        </div>
+        <div class="products-text-holder">
+          <div class="products-text">
+            خرید کنسول Game 2.4G 4K Classc با دو عدد گیم
+          </div>
+        </div>
+        <div class="products-prise">
+          <p>تومان 24.999,000</p>
+        </div>
+      </div>
+      <div class="products">
+        <div class="products-picture-div">
+          <img src="../assets/controler.jpg" alt="conteroler-picture" class="products-picture-4">
+        </div>
+        <div class="products-text-holder">
+          <div class="products-text">
+            خرید کنترلر dualsense کار کرده
+          </div>
+        </div>
+        <div class="products-prise">
+          <p>تومان 2,350,000</p>
+        </div>
+      </div>
+      <div class="products">
+        <div class="products-picture-div">
+          <img src="../assets/cyberpunk.jpg" alt="cyberpunk-picture" class="products-picture">
+        </div>
+        <div class="products-text-holder">
+          <div class="products-text">
+            خرید بازی cyberpunk 2077 نسخه ultimate برای PS5
+          </div>
+        </div>
+        <div class="products-prise">
+          <p>تومان 2,800,000</p>
+        </div>
+      </div>
+      <div class="products">
+        <div class="products-picture-div">
+          <img src="../assets/call of duty vanguard.jpg" alt="call of duty vanguard-picture" class="products-picture">
+        </div>
+        <div class="products-text-holder">
+          <div class="products-text">
+            خرید بازی : call of duty vanguard استفاده شده
+
+          </div>
+        </div>
+        <div class="products-prise">
+          <p>تومان ,950,000</p>
+        </div>
+      </div>
+    </div>
+ 
   <div class="banner-down-before-footer-page">
      <img class="banner-down-before-footer-page" src="../assets/banner-down-before-footer.jpg" alt="">
   </div>
@@ -230,7 +324,7 @@
     }
     .div-products-holder {
       height: 400px;
-      background-color: ;
+      /* background-color: ; */
       display: flex;
       align-items: center;
       justify-content: space-around;
