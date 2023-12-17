@@ -37,6 +37,9 @@
             خرید بازی far cry primal استفاده شده برای ps4
           </div>
         </div>
+        <div class="products-prise">
+          <p>تومان 380,000</p>
+        </div>
       </div>
     </div>
   <div class="img-banner-div">
@@ -159,12 +162,14 @@
       height: 227px;
     }
     .div-products-holder {
-      height: 350px;
+      height: 400px;
       background-color: pink;
+      display: flex;
+      align-items: center;
     }
   .products {
     width: 190px;
-    height: 350px;
+    height: 340px;
     background-color: white;
     border-radius: 12px;
   }
@@ -178,16 +183,29 @@
   }
   .products-text-holder {
     width: 100%;
-    height: 60px;
+    height: 95px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
   .products-text {
     width: 170px;
-    height: 50px;
+    height: 70px;
     display: flex;
     align-items: center;
+    align-items: flex-start;
     line-height: 1.7;
+    font-family: iransans;
+    color: #212529;
+    margin-right: 20px;
+  }
+  .products-prise {
+    width: 100%;
+    height: 30px;
+    color: #39B156;
+    font-weight: 510;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 </style>
