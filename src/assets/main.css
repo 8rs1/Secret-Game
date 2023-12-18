@@ -1,1 +1,9 @@
 @import './base.css';
+@font-face {
+  font-family: iransans;
+  src: url(fonts/iransans.ttf) format('truetype');
+}
+@font-face {
+  font-family: vazirmatn;
+  src: url(fonts/woff2/Vazirmatn.woff2) format('woff2');
+}
