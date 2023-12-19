@@ -6,7 +6,7 @@
       <nav class="nav">
         <ul class="navbar">
           <li class="nav-item">
-            اخبار و مقالات
+            اخبار
             <i class="far fa-angle-down"></i>
             <ul class="submenu">
               <li class="submenu-item"><RouterLink to="javascript:void(0)">لورم1</RouterLink></li>
