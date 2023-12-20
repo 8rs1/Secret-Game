@@ -1,7 +1,7 @@
 
 <template>
   <header class="header">
-    <div class="logo-container">logo</div>
+    <div class="logo-container">bug</div>
     <div class="navigation-container">
       <nav class="nav">
         <ul class="navbar">
