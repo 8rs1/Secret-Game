@@ -1,149 +1,115 @@
 <template>
   <div class="main">
-    <div class="service">
-      <div class="service-item">
-        <svg
-          class="service-item-icon"
-          xmlns="http://www.w3.org/2000/svg"
-          height="16"
-          width="20"
-          viewBox="0 0 640 512"
-        >
-          <path
-            d="M48 0C21.5 0 0 21.5 0 48V368c0 26.5 21.5 48 48 48H64c0 53 43 96 96 96s96-43 96-96H384c0 53 43 96 96 96s96-43 96-96h32c17.7 0 32-14.3 32-32s-14.3-32-32-32V288 256 237.3c0-17-6.7-33.3-18.7-45.3L512 114.7c-12-12-28.3-18.7-45.3-18.7H416V48c0-26.5-21.5-48-48-48H48zM416 160h50.7L544 237.3V256H416V160zM112 416a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm368-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"
-          ></path>
-        </svg>
-        <span class="service-item-span">تحویل سریع</span>
-      </div>
-      <div class="service-item">
-        <svg
-          class="service-item-icon"
-          xmlns="http://www.w3.org/2000/svg"
-          height="16"
-          width="20"
-          viewBox="0 0 640 512"
-        >
-          <path
-            d="M48 0C21.5 0 0 21.5 0 48V368c0 26.5 21.5 48 48 48H64c0 53 43 96 96 96s96-43 96-96H384c0 53 43 96 96 96s96-43 96-96h32c17.7 0 32-14.3 32-32s-14.3-32-32-32V288 256 237.3c0-17-6.7-33.3-18.7-45.3L512 114.7c-12-12-28.3-18.7-45.3-18.7H416V48c0-26.5-21.5-48-48-48H48zM416 160h50.7L544 237.3V256H416V160zM112 416a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm368-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"
-          ></path>
-        </svg>
-        <span class="service-item-span">بازگشت وجه</span>
-      </div>
-      <div class="service-item">
-        <svg
-          class="service-item-icon"
-          xmlns="http://www.w3.org/2000/svg"
-          height="16"
-          width="16"
-          viewBox="0 0 512 512"
-        >
-          <path
-            d="M256 80C149.9 80 62.4 159.4 49.6 262c9.4-3.8 19.6-6 30.4-6c26.5 0 48 21.5 48 48V432c0 26.5-21.5 48-48 48c-44.2 0-80-35.8-80-80V384 336 288C0 146.6 114.6 32 256 32s256 114.6 256 256v48 48 16c0 44.2-35.8 80-80 80c-26.5 0-48-21.5-48-48V304c0-26.5 21.5-48 48-48c10.8 0 21 2.1 30.4 6C449.6 159.4 362.1 80 256 80z"
-          ></path>
-        </svg>
-        <span class="service-item-span">پشتیبانی عالی</span>
-      </div>
-      <div class="service-item">
-        <svg
-          class="service-item-icon"
-          xmlns="http://www.w3.org/2000/svg"
-          height="16"
-          width="20"
-          viewBox="0 0 640 512"
-        >
-          <path
-            d="M192 64C86 64 0 150 0 256S86 448 192 448H448c106 0 192-86 192-192s-86-192-192-192H192zM496 168a40 40 0 1 1 0 80 40 40 0 1 1 0-80zM392 304a40 40 0 1 1 80 0 40 40 0 1 1 -80 0zM168 200c0-13.3 10.7-24 24-24s24 10.7 24 24v32h32c13.3 0 24 10.7 24 24s-10.7 24-24 24H216v32c0 13.3-10.7 24-24 24s-24-10.7-24-24V280H136c-13.3 0-24-10.7-24-24s10.7-24 24-24h32V200z"
-          ></path>
-        </svg>
-        <span class="service-item-span">دنیای گیم</span>
-      </div>
-    </div>
-  </div>
-  <div class="pitures">
-    <div class="divpic">
-      <img src="../assets/console-banner.jpg" alt="consolbanner" class="pics" />
-    </div>
-    <div class="divpic">
-      <img src="../assets/janebi-banner.jpg" alt="janebibanner" class="pics" />
-    </div>
-  </div>
-  <div class="newest-products-holder">
-    <div class="newest-products-border-bottom">
-      <div class="newest-products">
-        <div class="product-title">
-          <svg xmlns="http://www.w3.org/2000/svg" height="16" width="14" viewBox="0 0 448 512">
-            <path
-              d="M159.3 5.4c7.8-7.3 19.9-7.2 27.7 .1c27.6 25.9 53.5 53.8 77.7 84c11-14.4 23.5-30.1 37-42.9c7.9-7.4 20.1-7.4 28 .1c34.6 33 63.9 76.6 84.5 118c20.3 40.8 33.8 82.5 33.8 111.9C448 404.2 348.2 512 224 512C98.4 512 0 404.1 0 276.5c0-38.4 17.8-85.3 45.4-131.7C73.3 97.7 112.7 48.6 159.3 5.4zM225.7 416c25.3 0 47.7-7 68.8-21c42.1-29.4 53.4-88.2 28.1-134.4c-4.5-9-16-9.6-22.5-2l-25.2 29.3c-6.6 7.6-18.5 7.4-24.7-.5c-16.5-21-46-58.5-62.8-79.8c-6.3-8-18.3-8.1-24.7-.1c-33.8 42.5-50.8 69.3-50.8 99.4C112 375.4 162.6 416 225.7 416z"
-            ></path>
-          </svg>
-          جدیدترین محصولات
+    <div class="container">
+      <div class="service">
+        <div class="service-item">
+          <i class="fa fa-truck"></i>
+          <span class="service-item-span">تحویل سریع</span>
+        </div>
+        <div class="service-item">
+          <i class="fa fa-dollar"></i>
+          <span class="service-item-span">بازگشت وجه</span>
+        </div>
+        <div class="service-item">
+          <i class="fa fa-headphones"></i>
+          <span class="service-item-span">پشتیبانی عالی</span>
+        </div>
+        <div class="service-item">
+          <i class="fa fa-gamepad"></i>
+          <span class="service-item-span">دنیای گیم</span>
         </div>
       </div>
-      <div class="newest-products-txt">
-        <span>مشاهده همه</span>
-      </div>
     </div>
   </div>
-  <div class="div-products-holder">
+  <div class="pitures container">
+    <div class="divpic">
+      <img src="@/assets/HomePage/console-banner.jpg" alt="consolbanner" class="pics" />
+    </div>
+    <div class="divpic">
+      <img src="@/assets/HomePage/janebi-banner.jpg" alt="janebibanner" class="pics" />
+    </div>
+  </div>
+  <div class="newest-products-holder container">
+    <div class="product-title">
+      <i class="fa fa-fire"></i>
+      جدیدترین محصولات
+    </div>
+    <div class="newest-products-txt">
+      <span>مشاهده همه</span>
+    </div>
+  </div>
+  <div class="div-products-holder container">
     <div class="products">
       <div class="products-picture-div">
-        <img src="../assets/farcry.jpg" alt="farcry-picture" class="products-picture" />
+        <img src="@/assets/HomePage/farcry.jpg" alt="farcry-picture" class="products-picture" />
       </div>
       <div class="products-text-holder">
         <div class="products-text">خرید بازی far cry primal استفاده شده برای ps4</div>
       </div>
-      <div class="products-prise">
+      <div class="products-price">
         <p>تومان 380,000</p>
       </div>
     </div>
     <div class="products">
       <div class="products-picture-div">
-        <img src="../assets/fallout.jpg" alt="fallout-picture" class="products-picture" />
+        <img src="@/assets/HomePage/fallout.jpg" alt="fallout-picture" class="products-picture" />
       </div>
       <div class="products-text-holder">
         <div class="products-text">خرید بازی fallout 4 استفاده شده برای ps4</div>
       </div>
-      <div class="products-prise">
+      <div class="products-price">
         <p>تومان 370,000</p>
       </div>
     </div>
     <div class="products">
       <div class="products-picture-div">
-        <img src="../assets/consolps5.jpg" alt="consolps5-picture" class="products-picture-3" />
+        <img
+          src="@/assets/HomePage/consolps5.jpg"
+          alt="consolps5-picture"
+          class="products-picture-3"
+        />
       </div>
       <div class="products-text-holder">
         <div class="products-text">خرید کنسول Game 2.4G 4K Classc با دو عدد گیم</div>
       </div>
-      <div class="products-prise">
+      <div class="products-price">
         <p>تومان 24.999,000</p>
       </div>
     </div>
     <div class="products">
       <div class="products-picture-div">
-        <img src="../assets/controler.jpg" alt="conteroler-picture" class="products-picture-4" />
+        <img
+          src="@/assets/HomePage/controler.jpg"
+          alt="conteroler-picture"
+          class="products-picture-4"
+        />
       </div>
       <div class="products-text-holder">
         <div class="products-text">خرید کنترلر dualsense کار کرده</div>
       </div>
-      <div class="products-prise">
+      <div class="products-price">
         <p>تومان 2,350,000</p>
       </div>
     </div>
     <div class="products">
       <div class="products-picture-div">
-        <img src="../assets/cyberpunk.jpg" alt="cyberpunk-picture" class="products-picture" />
+        <img
+          src="@/assets/HomePage/cyberpunk.jpg"
+          alt="cyberpunk-picture"
+          class="products-picture"
+        />
       </div>
       <div class="products-text-holder">
         <div class="products-text">خرید بازی cyberpunk 2077 نسخه ultimate برای PS5</div>
       </div>
-      <div class="products-prise">
+      <div class="products-price">
         <p>تومان 2,800,000</p>
       </div>
     </div>
     <div class="products">
       <div class="products-picture-div">
         <img
-          src="../assets/call of duty vanguard.jpg"
+          src="@/assets/HomePage/call of duty vanguard.jpg"
           alt="call of duty vanguard-picture"
           class="products-picture"
         />
@@ -151,39 +117,31 @@
       <div class="products-text-holder">
         <div class="products-text">خرید بازی : call of duty vanguard استفاده شده</div>
       </div>
-      <div class="products-prise">
+      <div class="products-price">
         <p>تومان ,950,000</p>
       </div>
     </div>
   </div>
-  <div class="img-banner-div">
-    <img class="img-banner-div" src="../assets/nintendo-game.png" alt="" />
-    <img class="img-banner-div" src="../assets/ps5.png" alt="" />
-    <img class="img-banner-div" src="../assets/ps4game.png" alt="" />
-    <img class="img-banner-div" src="../assets/xbox-game.png" alt="" />
+  <div class="img-banner-container container">
+    <img class="img-banner-div" src="@/assets/HomePage/nintendo-game.png" alt="nintendo game" />
+    <img class="img-banner-div" src="@/assets/HomePage/ps5.png" alt="ps5" />
+    <img class="img-banner-div" src="@/assets/HomePage/ps4game.png" alt="ps4" />
+    <img class="img-banner-div" src="@/assets/HomePage/xbox-game.png" alt="xbox" />
   </div>
-  <div class="newest-products-holder">
-    <div class="newest-products-border-bottom">
-      <div class="newest-products">
-        <div class="product-title">
-          <svg xmlns="http://www.w3.org/2000/svg" height="16" width="14" viewBox="0 0 448 512">
-            <path
-              d="M159.3 5.4c7.8-7.3 19.9-7.2 27.7 .1c27.6 25.9 53.5 53.8 77.7 84c11-14.4 23.5-30.1 37-42.9c7.9-7.4 20.1-7.4 28 .1c34.6 33 63.9 76.6 84.5 118c20.3 40.8 33.8 82.5 33.8 111.9C448 404.2 348.2 512 224 512C98.4 512 0 404.1 0 276.5c0-38.4 17.8-85.3 45.4-131.7C73.3 97.7 112.7 48.6 159.3 5.4zM225.7 416c25.3 0 47.7-7 68.8-21c42.1-29.4 53.4-88.2 28.1-134.4c-4.5-9-16-9.6-22.5-2l-25.2 29.3c-6.6 7.6-18.5 7.4-24.7-.5c-16.5-21-46-58.5-62.8-79.8c-6.3-8-18.3-8.1-24.7-.1c-33.8 42.5-50.8 69.3-50.8 99.4C112 375.4 162.6 416 225.7 416z"
-            ></path>
-          </svg>
-          کنسول بازی
-        </div>
-      </div>
-      <div class="newest-products-txt">
-        <span>مشاهده همه</span>
-      </div>
+  <div class="newest-products-holder container">
+    <div class="product-title">
+      <i class="fa fa-fire"></i>
+      کنسول بازی
+    </div>
+    <div class="newest-products-txt">
+      <span>مشاهده همه</span>
     </div>
   </div>
-  <div class="div-products-holder">
+  <div class="div-products-holder container">
     <div class="products">
       <div class="products-picture-div">
         <img
-          src="../assets/consoldasti-abernic.jpg"
+          src="@/assets/HomePage/consoldasti-abernic.jpg"
           alt="abernic-picture"
           class="products-picture"
         />
@@ -191,36 +149,40 @@
       <div class="products-text-holder">
         <div class="products-text">خرید کنسول دستی Abernic RG35XX</div>
       </div>
-      <div class="products-prise">
+      <div class="products-price">
         <p>تومان 3,400,000</p>
       </div>
     </div>
     <div class="products">
       <div class="products-picture-div">
-        <img src="../assets/consoldasti-D-007.jpg" alt="D-007-picture" class="products-picture" />
+        <img
+          src="@/assets/HomePage/consoldasti-D-007.jpg"
+          alt="D-007-picture"
+          class="products-picture"
+        />
       </div>
       <div class="products-text-holder">
         <div class="products-text">خرید کنسول دستی D-007 Plus</div>
       </div>
-      <div class="products-prise">
+      <div class="products-price">
         <p>تومان 3,550,000</p>
       </div>
     </div>
     <div class="products">
       <div class="products-picture-div">
-        <img src="../assets/ps4-ft.jpg" alt="ps4-ft-picture" class="products-picture-3" />
+        <img src="@/assets/HomePage/ps4-ft.jpg" alt="ps4-ft-picture" class="products-picture-3" />
       </div>
       <div class="products-text-holder">
         <div class="products-text">خرید پلی استیشن 4 فت 1 ترابایت ریجن 2</div>
       </div>
-      <div class="products-prise">
+      <div class="products-price">
         <p>تومان 10.499,000</p>
       </div>
     </div>
     <div class="products">
       <div class="products-picture-div">
         <img
-          src="../assets/ps5 standard.jpg"
+          src="@/assets/HomePage/ps5 standard.jpg"
           alt="ps5-standard-picture"
           class="products-picture-4"
         />
@@ -228,25 +190,25 @@
       <div class="products-text-holder">
         <div class="products-text">خرید پلی استیشن 5 استاندارد دیسک خو باندل</div>
       </div>
-      <div class="products-prise">
+      <div class="products-price">
         <p>تومان 27,900,000</p>
       </div>
     </div>
     <div class="products">
       <div class="products-picture-div">
-        <img src="../assets/xbox-s.jpg" alt="xbobx-s-picture" class="products-picture" />
+        <img src="@/assets/HomePage/xbox-s.jpg" alt="xbobx-s-picture" class="products-picture" />
       </div>
       <div class="products-text-holder">
         <div class="products-text">خرید xbox series s مشکی 1 ترابایت</div>
       </div>
-      <div class="products-prise">
+      <div class="products-price">
         <p>تومان 18,900,000</p>
       </div>
     </div>
     <div class="products">
       <div class="products-picture-div">
         <img
-          src="../assets/ps4-slim.jpg"
+          src="@/assets/HomePage/ps4-slim.jpg"
           alt="call of duty vanguard-picture"
           class="consol-picture-6"
         />
@@ -254,98 +216,78 @@
       <div class="products-text-holder">
         <div class="products-text">خرید پلی استیشن 4 اسلیم ریجن 2 یک ترابایت استفاده شده</div>
       </div>
-      <div class="products-prise">
+      <div class="products-price">
         <p>تومان ,12,999,000</p>
       </div>
     </div>
   </div>
-  <div class="banner-down-before-footer-page">
+  <div class="banner-down-before-footer-page container">
     <img
       class="banner-down-before-footer-page"
-      src="../assets/banner-down-before-footer.jpg"
+      src="@/assets/HomePage/banner-down-before-footer.jpg"
       alt=""
     />
   </div>
 </template>
 <style scoped>
-.main {
-  /* background-color: black; */
-  @apply w-full
-}
 .service {
-  @apply flex items-center justify-around w-full h-24 text-lg
+  @apply grid grid-cols-2 md:grid-cols-4 gap-5 my-5 text-lg;
 }
 .service-item {
-  @apply flex content-around w-[15%] h-14 border border-solid border-[#45494d] rounded-lg bg-[#d9eeff]
-}
-.service-item-icon {
-  @apply w-7 h-14
-}
-.service-item-span {
-  @apply flex justify-center items-center text-lg 
+  @apply flex py-2 px-3 items-center justify-center gap-x-2 border border-solid border-[#45494d] rounded-lg bg-[#d9eeff];
 }
 .pitures {
-  @apply h-[227px] flex
-}
-.divpic {
-  @apply w-1/2 h-[227px] flex items-center justify-center
+  @apply grid grid-cols-1 lg:grid-cols-2 gap-2;
 }
 .pics {
-  @apply w-[600px] h-52 rounded-lg
+  @apply h-52 rounded-lg block mx-auto;
 }
 .newest-products-holder {
-  @apply h-12 flex items-center
-}
-.newest-products-border-bottom {
-  @apply w-[300px] h-10 border-b-2 border-b-[#0064ff] border-solid flex items-center
-}
-.newest-products {
-  @apply w-48 h-12 mr-5 flex items-center
+  @apply h-12 flex items-center gap-1 after:content-[''] after:w-full after:h-1 after:bg-[var(--second-color)] relative after:absolute after:top-[calc(100%+.5rem)] w-fit;
 }
 .product-title {
-  @apply text-2xl
+  @apply text-2xl;
 }
 .newest-products-txt {
-  @apply w-20 h-7 flex items-start justify-center text-[#0059ff] font-bold
+  @apply text-[var(--second-color)] font-bold;
 }
-
-.img-banner-div {
-  @apply w-24 h-60 flex justify-around items-center
+.img-banner-container {
+  @apply flex gap-4 flex-wrap justify-between;
 }
 .img-banner-div {
-  @apply justify-between rounded-lg h-56 w-80
+  @apply rounded-lg w-80 mx-auto;
 }
 .banner-down-before-footer-page {
-  @apply flex items-center justify-center rounded-lg h-56
+  @apply rounded-lg;
 }
 .div-products-holder {
-  @apply h-[400px] flex  items-center justify-around
+  @apply my-5 flex gap-3 flex-wrap justify-between;
 }
 .products {
-  @apply w-48 h-80 bg-white rounded-lg shadow-[1px_1px_10px_1px_#bbb]
+  @apply w-48 bg-white rounded-lg shadow-[1px_1px_10px_1px_#bbb] mx-auto;
 }
 .products-picture-div {
-  @apply w-full h-52 flex items-center justify-center
+  @apply w-full h-52 flex items-center justify-center;
 }
 .products-picture {
-  @apply w-48 rounded-lg
+  @apply w-48 rounded-lg;
 }
 .products-picture-3 {
-  @apply w-36
+  @apply w-36;
 }
 .products-picture-4 {
-  @apply w-36
+  @apply w-36;
 }
 .products-text-holder {
-  @apply w-full h-24 flex items-center justify-center
+  @apply w-full h-24 flex items-center justify-center;
 }
 .products-text {
-  @apply w-44 h-20 flex items-center leading-6 text-[#212529] mx-4
+  @apply w-44 h-20 flex items-center leading-6 text-[#212529] mx-4;
 }
-.products-prise {
-  @apply h-8 text-[#39b156] font-bold flex items-center justify-center
+.products-price {
+  @apply h-8 text-[#39b156] font-bold flex items-center justify-center;
 }
 .consol-picture-6 {
-  @apply w-40 rounded-lg
+  @apply w-40 rounded-lg;
 }
 </style>
