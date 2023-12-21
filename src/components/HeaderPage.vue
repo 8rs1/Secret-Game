@@ -47,108 +47,53 @@ const navItems = reactive([
     </div>
   </header>
 </template>
-<style scoped>
+<style scoped >
 a {
-  text-decoration: none;
-  color: inherit;
-  display: inline-block;
-  width: 100%;
-  height: 100%;
-}
-a:hover {
-  color: var(--link-hover-color);
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
+  @apply inline-block w-full h-full
 }
 .header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: var(--first-color);
-  box-shadow: 1px 0 10px #bbb;
-  padding: .5rem 2rem;
-  font-family: iransans;
-  position: sticky;
-  top: 0;
-  color: var(--text-white);
+  @apply flex justify-between items-center shadow-[1px_0_10px_#bbb] py-2 px-8 bg-[var(--first-color)] font-[iransans] sticky top-0 text-[var(--text-white)]
 }
 .navbar {
-  display: flex;
-  justify-content: space-between;
-  gap: 1rem;
+  @apply flex justify-between gap-4
 }
 .nav-item {
-  height: 2.5rem;
-  display: flex;
-  gap: .2rem;
-  align-items: center;
-  position: relative;
-  width: 8rem;
-  justify-content: center;
-  text-align: center;
-  cursor: pointer;
-  color: var(--text-white-low-opacity);
+  @apply h-10 flex gap-1 items-center relative w-32 justify-center text-center cursor-pointer text-[var(--text-white-low-opacity)]
 }
 .nav-item:hover {
-  color: var(--text-white);
+  @apply text-[var(--text-white)]
 }
 .nav-item:hover .fa-angle-down::before {
-  content: "\f106";
+  @apply content-["\f106"]
 }
 .submenu {
-  position: absolute;
-  top: 10%;
-  right: 0;
-  text-align: right;
-  box-shadow: 1px 1px 10px #aaa;
-  border-radius: 12px;
-  width: 15rem;
-  visibility: hidden;
-  opacity: 0;
-  transition: all 100ms ease-out;
-  overflow: hidden;
+  @apply absolute top-20 right-0 text-right shadow-[1px_1px_10px_#aaa] rounded-xl w-60 invisible opacity-0 transition-all duration-100 ease-out overflow-hidden
 }
 .submenu-item {
-  background-color: var(--first-color);
-  padding: .5rem 1rem;
+  @apply bg-[var(--first-color)] py-2 px-4
+}
+.submenu-item a {
+  @apply text-[var(--text-white-low-opacity)]
+}
+.submenu-item a:hover {
+  @apply text-[var(--link-hover-color)]
 }
 .nav-item:hover>.submenu {
-  top: 102%;
-  visibility: visible;
-  opacity: 1;
-  animation: drop-down_animation 200ms ease 1 alternate;
-}
-@keyframes drop-down_animation {
-  0%,50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+  @apply top-full visible opacity-100 animate-dropdown_animation
 }
 .actions-container {
-  display: flex;
-  gap: 0.5rem;
-  align-items: center;
+  @apply flex gap-2 items-center
 }
 .search {
-  font-size: 1.4rem;
-  cursor: pointer;
+  @apply text-2xl cursor-pointer
 }
 .login, .signup {
-  width: 5rem;
-  height: 2.5rem;
-  line-height: 2.5rem;
-  text-align: center;
-  background-color: #AB47BC;
-  color: #fafafa;
-  border-radius: .3rem;
+  @apply w-20 h-10 leading-10 text-center bg-[#AB47BC] text-[#fafafa] rounded
 }
 .signup {
-  background-color: #E0E0E0;
-  color: initial;
+  @apply bg-[#e0e0e0] text-black
+}
+.login:hover {
+  @apply bg-[#cd69de]
 }
 </style>
