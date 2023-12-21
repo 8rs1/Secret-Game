@@ -16,6 +16,9 @@ export default {
             opacity: 1
           }
         }
+      },
+      container: {
+        center: true
       }
     },
   },
