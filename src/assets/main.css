@@ -1,4 +1,10 @@
 @import './base.css';
+:root {
+  --first-color: #9C60E9;
+  --text-white: #fff;
+  --link-hover-color: #89bdfc;
+  --text-white-low-opacity:#fffc;
+}
 @font-face {
   font-family: iransans;
   src: url(fonts/iransans.ttf) format('truetype');
