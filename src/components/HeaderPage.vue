@@ -2,12 +2,12 @@
 import { reactive } from 'vue';
 
 const dropDownItems = reactive([
-  {id: 1, value: "عنوان"},
-  {id: 2, value: "عنوان"},
-  {id: 3, value: "عنوان"},
-  {id: 4, value: "عنوان"},
-  {id: 5, value: "عنوان"},
-  {id: 6, value: "عنوان"},
+  {id: 1, value: "عنوان اول"},
+  {id: 2, value: "عنوان دوم"},
+  {id: 3, value: "عنوان سوم"},
+  {id: 4, value: "عنوان چهارم"},
+  {id: 5, value: "عنوان پنجم"},
+  {id: 6, value: "عنوان ششم"},
 ])
 const navItems = reactive([
   {id:1, name: "اخبار و مقالات"},
@@ -85,6 +85,7 @@ ul {
   width: 8rem;
   justify-content: center;
   text-align: center;
+  cursor: pointer;
 }
 .nav-item:hover .fa-angle-down::before {
   content: "\f106";
