@@ -1,67 +1,33 @@
+<script setup>
+import { reactive } from 'vue';
+
+const dropDownItems = reactive([
+  {id: 1, value: "عنوان"},
+  {id: 2, value: "عنوان"},
+  {id: 3, value: "عنوان"},
+  {id: 4, value: "عنوان"},
+  {id: 5, value: "عنوان"},
+  {id: 6, value: "عنوان"},
+])
+const navItems = reactive([
+  {id:1, name: "اخبار و مقالات"},
+  {id:2, name: "ویدیو"},
+  {id:3, name: "بررسی بازی ها"},
+  {id:4, name: "آموزش"},
+  {id:5, name: "سکرت گیم"},
+])
+</script>
 <template>
   <header class="header">
     <div class="logo-container">logo</div>
     <div class="navigation-container">
       <nav class="nav">
         <ul class="navbar">
-          <li class="nav-item">
-            اخبار و مقالات
+          <li class="nav-item" v-for="navItem in navItems" :key="navItem.id">
+            {{ navItem.name }}
             <i class="far fa-angle-down"></i>
             <ul class="submenu">
-              <li class="submenu-item"><RouterLink to="javascript:void(0)">لورم1</RouterLink></li>
-              <li class="submenu-item"><RouterLink to="javascript:void(0)">لورم2</RouterLink></li>
-              <li class="submenu-item"><RouterLink to="javascript:void(0)">لورم3</RouterLink></li>
-              <li class="submenu-item"><RouterLink to="javascript:void(0)">لورم4</RouterLink></li>
-              <li class="submenu-item"><RouterLink to="javascript:void(0)">لورم5</RouterLink></li>
-              <li class="submenu-item"><RouterLink to="javascript:void(0)">لورم6</RouterLink></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            ویدیو
-            <i class="far fa-angle-down"></i>
-            <ul class="submenu">
-              <li class="submenu-item"><RouterLink to="javascript:void(0)">لورم1</RouterLink></li>
-              <li class="submenu-item"><RouterLink to="javascript:void(0)">لورم2</RouterLink></li>
-              <li class="submenu-item"><RouterLink to="javascript:void(0)">لورم3</RouterLink></li>
-              <li class="submenu-item"><RouterLink to="javascript:void(0)">لورم4</RouterLink></li>
-              <li class="submenu-item"><RouterLink to="javascript:void(0)">لورم5</RouterLink></li>
-              <li class="submenu-item"><RouterLink to="javascript:void(0)">لورم6</RouterLink></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            بررسی بازی&zwnj;ها
-            <i class="far fa-angle-down"></i>
-            <ul class="submenu">
-              <li class="submenu-item"><RouterLink to="javascript:void(0)">لورم1</RouterLink></li>
-              <li class="submenu-item"><RouterLink to="javascript:void(0)">لورم2</RouterLink></li>
-              <li class="submenu-item"><RouterLink to="javascript:void(0)">لورم3</RouterLink></li>
-              <li class="submenu-item"><RouterLink to="javascript:void(0)">لورم4</RouterLink></li>
-              <li class="submenu-item"><RouterLink to="javascript:void(0)">لورم5</RouterLink></li>
-              <li class="submenu-item"><RouterLink to="javascript:void(0)">لورم6</RouterLink></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            آموزش
-            <i class="far fa-angle-down"></i>
-            <ul class="submenu">
-              <li class="submenu-item"><RouterLink to="javascript:void(0)">لورم1</RouterLink></li>
-              <li class="submenu-item"><RouterLink to="javascript:void(0)">لورم2</RouterLink></li>
-              <li class="submenu-item"><RouterLink to="javascript:void(0)">لورم3</RouterLink></li>
-              <li class="submenu-item"><RouterLink to="javascript:void(0)">لورم4</RouterLink></li>
-              <li class="submenu-item"><RouterLink to="javascript:void(0)">لورم5</RouterLink></li>
-              <li class="submenu-item"><RouterLink to="javascript:void(0)">لورم6</RouterLink></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            سکرت گیم
-            <i class="far fa-angle-down"></i>
-            <ul class="submenu">
-              <li class="submenu-item"><RouterLink to="javascript:void(0)">لورم1</RouterLink></li>
-              <li class="submenu-item"><RouterLink to="javascript:void(0)">لورم2</RouterLink></li>
-              <li class="submenu-item"><RouterLink to="javascript:void(0)">لورم3</RouterLink></li>
-              <li class="submenu-item"><RouterLink to="javascript:void(0)">لورم4</RouterLink></li>
-              <li class="submenu-item"><RouterLink to="javascript:void(0)">لورم5</RouterLink></li>
-              <li class="submenu-item"><RouterLink to="javascript:void(0)">لورم6</RouterLink></li>
+              <li class="submenu-item" v-for="item in dropDownItems" :key="item.id"><RouterLink to="javascript:void(0)">{{ item.value }}</RouterLink></li>
             </ul>
           </li>
           <li class="nav-item">
