@@ -157,10 +157,10 @@
     </div>
   </div>
   <div class="img-banner-div">
-    <img class="img-banner-div-" src="../assets/nintendo-game.png" alt="" />
-    <img class="img-banner-div-" src="../assets/ps5.png" alt="" />
-    <img class="img-banner-div-" src="../assets/ps4game.png" alt="" />
-    <img class="img-banner-div-" src="../assets/xbox-game.png" alt="" />
+    <img class="img-banner-div" src="../assets/nintendo-game.png" alt="" />
+    <img class="img-banner-div" src="../assets/ps5.png" alt="" />
+    <img class="img-banner-div" src="../assets/ps4game.png" alt="" />
+    <img class="img-banner-div" src="../assets/xbox-game.png" alt="" />
   </div>
   <div class="newest-products-holder">
     <div class="newest-products-border-bottom">
@@ -268,188 +268,84 @@
   </div>
 </template>
 <style scoped>
-* {
-  direction: rtl;
-}
 .main {
   /* background-color: black; */
-  width: 100%;
-  height: auto;
+  @apply w-full
 }
 .service {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  width: 100;
-  height: 100px;
-  font-size: 20px;
+  @apply flex items-center justify-around w-full h-24 text-lg
 }
 .service-item {
-  display: flex;
-  justify-content: space-around;
-  direction: rtl;
-  width: 15%;
-  height: 60px;
-  border-style: solid;
-  border-color: #45494d;
-  border-radius: 1rem;
-  background-color: #d9eeff;
+  @apply flex content-around w-[15%] h-14 border border-solid border-[#45494d] rounded-lg bg-[#d9eeff]
 }
 .service-item-icon {
-  width: 30px;
-  height: 60px;
+  @apply w-7 h-14
 }
 .service-item-span {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 20px;
-  line-height: 10px;
+  @apply flex justify-center items-center text-lg 
 }
 .pitures {
-  height: 227px;
-  display: flex;
+  @apply h-[227px] flex
 }
 .divpic {
-  width: 50%;
-  height: 227px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @apply w-1/2 h-[227px] flex items-center justify-center
 }
 .pics {
-  width: 600px;
-  height: 200px;
-  border-radius: 12px;
+  @apply w-[600px] h-52 rounded-lg
 }
 .newest-products-holder {
-  height: 50px;
-  display: flex;
-  display: flex;
-  align-items: center;
+  @apply h-12 flex items-center
 }
 .newest-products-border-bottom {
-  width: 300px;
-  height: 40px;
-  border-bottom: 3px solid rgb(0, 110, 255);
-  display: flex;
-  align-items: center;
+  @apply w-[300px] h-10 border-b-2 border-b-[#0064ff] border-solid flex items-center
 }
 .newest-products {
-  width: 200px;
-  height: 50px;
-  margin-right: 20px;
-  display: flex;
-  align-items: center;
+  @apply w-48 h-12 mr-5 flex items-center
 }
 .product-title {
-  font-size: 26px;
+  @apply text-2xl
 }
 .newest-products-txt {
-  width: 80px;
-  height: 30px;
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  color: rgb(0, 89, 255);
-  font-weight: bold;
+  @apply w-20 h-7 flex items-start justify-center text-[#0059ff] font-bold
 }
 
 .img-banner-div {
-  width: 100;
-  height: 250px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+  @apply w-24 h-60 flex justify-around items-center
 }
-.img-banner-div- {
-  justify-content: space-between;
-  border-radius: 10px;
-  height: 225px;
-  width: 320px;
+.img-banner-div {
+  @apply justify-between rounded-lg h-56 w-80
 }
 .banner-down-before-footer-page {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: auto;
-  border-radius: 1rem;
-  height: 227px;
+  @apply flex items-center justify-center rounded-lg h-56
 }
 .div-products-holder {
-  height: 400px;
-  /* background-color: ; */
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
+  @apply h-[400px] flex  items-center justify-around
 }
 .products {
-  width: 190px;
-  height: 340px;
-  background-color: white;
-  border-radius: 12px;
-  box-shadow: 2px 2px 10px 1px;
+  @apply w-48 h-80 bg-white rounded-lg shadow-[1px_1px_10px_1px_#bbb]
 }
 .products-picture-div {
-  width: 100%;
-  height: 210px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @apply w-full h-52 flex items-center justify-center
 }
 .products-picture {
-  width: 190px;
-  border-radius: 12px;
+  @apply w-48 rounded-lg
 }
 .products-picture-3 {
-  width: 150px;
+  @apply w-36
 }
 .products-picture-4 {
-  width: 140px;
+  @apply w-36
 }
 .products-text-holder {
-  width: 100%;
-  height: 95px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @apply w-full h-24 flex items-center justify-center
 }
 .products-text {
-  width: 170px;
-  height: 70px;
-  display: flex;
-  align-items: center;
-  align-items: flex-start;
-  line-height: 1.7;
-  color: #212529;
-  margin-right: 20px;
-  margin-left: 10px;
+  @apply w-44 h-20 flex items-center leading-6 text-[#212529] mx-4
 }
 .products-prise {
-  width: 100%;
-  height: 30px;
-  color: #39b156;
-  font-weight: 510;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.game-consol {
-  width: 140px;
-  height: 50px;
-  margin-right: 20px;
-  display: flex;
-  align-items: center;
-}
-.game-consol-border-bottom {
-  width: 250px;
-  height: 40px;
-  border-bottom: 3px solid rgb(0, 110, 255);
-  display: flex;
-  align-items: center;
+  @apply h-8 text-[#39b156] font-bold flex items-center justify-center
 }
 .consol-picture-6 {
-  width: 160px;
-  border-radius: 12px;
+  @apply w-40 rounded-lg
 }
 </style>
