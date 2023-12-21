@@ -55,6 +55,9 @@ a {
   width: 100%;
   height: 100%;
 }
+a:hover {
+  color: var(--link-hover-color);
+}
 ul {
   list-style-type: none;
   padding: 0;
@@ -64,12 +67,13 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #fafafa;
+  background-color: var(--first-color);
   box-shadow: 1px 0 10px #bbb;
   padding: .5rem 2rem;
   font-family: iransans;
   position: sticky;
   top: 0;
+  color: var(--text-white);
 }
 .navbar {
   display: flex;
@@ -86,6 +90,10 @@ ul {
   justify-content: center;
   text-align: center;
   cursor: pointer;
+  color: var(--text-white-low-opacity);
+}
+.nav-item:hover {
+  color: var(--text-white);
 }
 .nav-item:hover .fa-angle-down::before {
   content: "\f106";
@@ -104,7 +112,7 @@ ul {
   overflow: hidden;
 }
 .submenu-item {
-  background-color: #fff;
+  background-color: var(--first-color);
   padding: .5rem 1rem;
 }
 .nav-item:hover>.submenu {
