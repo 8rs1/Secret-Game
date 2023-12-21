@@ -2,7 +2,7 @@
 <template>
   <footer class="footer">
     <div>
-      <div class="copy">
+      <div class="copy" dir="ltr">
         &copy; All right reserved for
         <RouterLink to="/">Secret Game</RouterLink>
         2023
@@ -12,15 +12,12 @@
 </template>
 <style scoped>
 a {
-  font-weight: bold;
+  @apply font-bold
 }
 .footer {
-  background-color: var(--first-color);
-  padding: 1rem 0;
+  @apply bg-[var(--first-color)] py-4
 }
 .copy {
-  direction: ltr;
-  color: #ddd;
-  font-family: monospace;
+  @apply text-[#ddd] font-mono
 }
 </style>
