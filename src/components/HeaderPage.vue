@@ -55,9 +55,6 @@ a {
   width: 100%;
   height: 100%;
 }
-a:hover {
-  color: var(--link-hover-color);
-}
 ul {
   list-style-type: none;
   padding: 0;
@@ -115,6 +112,12 @@ ul {
   background-color: var(--first-color);
   padding: .5rem 1rem;
 }
+.submenu-item a {
+  color: var(--text-white-low-opacity);
+}
+.submenu-item a:hover {
+  color: var(--link-hover-color);
+}
 .nav-item:hover>.submenu {
   top: 102%;
   visibility: visible;
@@ -150,5 +153,8 @@ ul {
 .signup {
   background-color: #E0E0E0;
   color: initial;
+}
+.login:hover {
+  background-color: #cd69de;
 }
 </style>
