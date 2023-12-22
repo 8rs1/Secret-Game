@@ -19,7 +19,12 @@ const navItems = reactive([
 </script>
 <template>
   <header class="header">
-    <div class="logo-container">logo</div>
+    <div class="bars-container">
+      <i class="fa fa-bars"></i>
+    </div>
+    <div class="logo-container">
+      logo
+    </div>
     <div class="navigation-container">
       <nav class="nav">
         <ul class="navbar">
@@ -52,13 +57,16 @@ a {
   @apply inline-block w-full h-full
 }
 .header {
-  @apply flex justify-between items-center shadow-[1px_0_10px_#bbb] py-2 px-8 bg-[var(--first-color)] font-[iransans] sticky top-0 text-[var(--text-white)]
+  @apply flex justify-between items-center shadow-[1px_0_10px_#bbb] py-2 px-8 bg-[var(--first-color)] font-[iransans] sticky top-0 text-[var(--text-white)] z-[1000]
+}
+.bars-container {
+  @apply cursor-pointer
 }
 .navbar {
-  @apply flex justify-between gap-4
+  @apply flex gap-5
 }
 .nav-item {
-  @apply h-10 flex gap-1 items-center relative w-32 justify-center text-center cursor-pointer text-[var(--text-white-low-opacity)]
+  @apply py-3 flex gap-1 items-center relative justify-center text-center cursor-pointer text-[var(--text-white-low-opacity)]
 }
 .nav-item:hover {
   @apply text-[var(--text-white)]
@@ -67,7 +75,7 @@ a {
   @apply content-["\f106"]
 }
 .submenu {
-  @apply absolute top-20 right-0 text-right shadow-[1px_1px_10px_#aaa] rounded-xl w-60 invisible opacity-0 transition-all duration-100 ease-out overflow-hidden
+  @apply absolute top-full z-[1000] right-0 text-right shadow-[1px_1px_10px_#aaa] rounded-xl w-60 invisible opacity-0 transition-all duration-200 ease-out overflow-hidden
 }
 .submenu-item {
   @apply bg-[var(--first-color)] py-2 px-4
@@ -79,7 +87,7 @@ a {
   @apply text-[var(--link-hover-color)]
 }
 .nav-item:hover>.submenu {
-  @apply top-full visible opacity-100 animate-dropdown_animation
+  @apply visible opacity-100 animate-dropdown_animation
 }
 .actions-container {
   @apply flex gap-2 items-center
