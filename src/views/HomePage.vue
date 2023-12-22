@@ -230,6 +230,9 @@
   </div>
 </template>
 <style scoped>
+.products:hover{
+  box-shadow: 5px 5px 5px 5px #9c60e9;
+}
 .service {
   @apply grid grid-cols-2 md:grid-cols-4 gap-5 my-5 text-lg;
 }
