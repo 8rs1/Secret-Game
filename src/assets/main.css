@@ -5,6 +5,8 @@
   --link-hover-color: #89bdfc;
   --text-white-low-opacity:#fffb;
   --second-color: #4a56ed;
+  --slate-color: rgb(100,116,139);
+  --gray-color: rgb(243,244,246);
 }
 @font-face {
   font-family: iransans;
